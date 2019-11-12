@@ -249,8 +249,7 @@ public class SourceCode {
      */
     public static void main(String[] args) {
         System.out.println(new File(".").getAbsoluteFile().getParent());
-        String file = "C:\\xyz\\SWing_ws_PNET_new\\SWing_CIMFO\\src\\main\\java\\jp\\co\\nece\\SWing\\CIMFO\\fo\\CIM\\service\\impl\\CimPnetServiceImpl.java";
-//        String file = ".\\src\\main\\java\\jp\\co\\infitech\\java\\SourceCode.java";
+        String file = ".\\src\\main\\java\\jp\\co\\infitech\\java\\SourceCode.java";
         
         SourceCode sourceCode = new SourceCode(file, "UTF-8");
 //        SourceCode sourceCode = new SourceCode(file, "SJIS");
